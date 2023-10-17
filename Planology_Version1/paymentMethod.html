@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+</head>
+
+<body>
+    <header
+        class="header_main_top pt-[21px] py-[31px]  lg:pt-[18px] lg:py-[22px] md:pt-[18px] md:py-[22px] relative z-10">
+        <nav class="relative flex flex-wrap items-center justify-between ">
+            <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+                <div class=" logo_img_main_div relative flex justify-between  px-4 lg:static lg:block lg:justify-start">
+                    <a class="text-sm  font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+                        href="./index.html">
+                        <img src="./assets/images/logo.png" class="logo_main" alt="">
+                    </a>
+                    <!-- <button
+                            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                            type="button">
+                            <span class="block relative w-6 h-px rounded-sm bg-white"></span>
+                            <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+                            <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+                        </button> -->
+                </div>
+                <div class="flex flex-grow items-center" id="example-navbar-warning">
+                    <div class="signin_signupbtn_main flex flex-inherit list-none ml-auto items-center">
+                        <button
+                            class="signin_signupbtn   signin_signupbtn_left  flex-shrink-0 text-[#0E063E]  text-lg border-0 py-2 px-8 focus:outline-none  rounded-xl py-[18] font-bold text-lg ">Sign
+                            in</button>
+                        <button
+                            class="signin_signupbtn flex-shrink-0 text-white bg-[#2F9831] border-0 ml-[12px] focus:outline-none  w-[118px] h-[58px] rounded-xl font-bold text-lg ">Sign
+                            Up</button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <section class="payment_method_main_div">
+        <div class="container mx-auto">
+            <div class="payment_method_main_div_outer_main_top">
+                <div class="payment_method_inner_main_div">
+                    <h2 class="payment_method_title_head"> Register for your free 30-day trial below</h2>
+                </div>
+                <div class="payment_method_title_business_top_main_div">
+                    <div class="payment_method_title_business">
+                        <div class="payment_method_title_business_icon_main_images">
+                            <span class="payment_method_bg_color">
+                                <img src="./assets/images/payment_method_business_premium_icon.svg" alt="">
+                            </span>
+                            <h4 class="payment_business_peremium_head">Planology Business
+                                Premium</h4>
+                        </div>
+                    </div>
+                    <div class="payment_premium_amount_price_main_top">
+                        <div class="payment_premium_amount_price_main_top_inner">
+                            <div class="payment_premium_amount_price payment_premium_amount_price_first ">
+                                <h5 class="payment_premium_amount_main">Amount</h5>
+                                <h4 class="payment_premium_price_main">$120.00</h4>
+                            </div>
+                            <div class="payment_premium_amount_price">
+                                <h5 class="payment_premium_amount_main">Tax</h5>
+                                <h4 class="payment_premium_price_main">$5.00</h4>
+                            </div>
+                        </div>
+
+                        <div class="payment_premium_amount_price payment_premium_amount_price_three ">
+                            <h5 class="payment_premium_amount_main">Amount to be charged in 30 days</h5>
+                            <h4 class="payment_premium_price_main">$125.50</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="premium_join_today_form_main_div">
+                    <div class="premium_join_today_form_main_div_inner">
+                        <h2 class="premium_join_today_form_main_div_inner_head_text">Join Today</h2>
+                    </div>
+                    <div class="premium_join_tab_main_div">
+                        <div class="flex-wrap" id="tabs-id">
+                            <div class="join_main_form_tab_inner_div w-full flex gap-8">
+                                <div class="premium_join_tab_main_div_inner_outer_main">
+                                    <div
+                                        class="premium_join_tab_main_div_inner_outer_main_outer_div_auto_width bg-[#fff]  rounded-[16px]">
+                                        <ul
+                                            class="premium_join_tab_main_div_inner_outer_main_ul_list   p-[16px]  mb-0 list-none flex-wrap flex-row w-[464px]">
+                                            <li
+                                                class="premium_join_tab_main_div_inner_outer_main_li_list cursor-pointer mb-[16px] last:mr-0 flex-auto text-center">
+                                                <a class="premium_join_link px-[20px] py-[22px] rounded-[16px] block leading-normal text-white bg-[#2F9831] text-start"
+                                                    onclick="changeActiveTab(event,'tab-profile')">
+                                                    <span class="tabs_num_add mr-[16px] active-span">
+                                                        1</span> Login Information
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="premium_join_tab_main_div_inner_outer_main_li_list cursor-pointer mb-[16px] last:mr-0 flex-auto text-center">
+                                                <a class="premium_join_link px-[20px] py-[22px] rounded-[16px] block leading-normal text-black-600 bg-white text-start"
+                                                    onclick="changeActiveTab(event,'tab-settings')">
+                                                    <span class="tabs_num_add mr-[16px]">
+                                                        2</span> Billing and Contact Information
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="premium_join_tab_main_div_inner_outer_main_li_list cursor-pointer last:mr-0 flex-auto text-center">
+                                                <a class="premium_join_link px-[20px] py-[22px] rounded-[16px] block leading-normal text-black-600 bg-white text-start"
+                                                    onclick="changeActiveTab(event,'tab-options')">
+                                                    <span class="tabs_num_add mr-[16px]">
+                                                        3</span> Payment Method
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class=" form_main_right_div flex flex-col bg-white w-full">
+                                    <div class="flex-auto">
+                                        <div class="tab-content tab-space">
+                                            <div class="block" id="tab-profile">
+                                                <div class="billing_contact_information_main">
+                                                    <p class="billing_contact_information_main_para">Create Your Login
+                                                        Information</p>
+                                                </div>
+                                                <div class="billo=ing_contact_main">
+                                                    <form class="auth_form">
+                                                        <div class="auth_filed_inner_inputs">
+                                                            <label class="auth_filed_label" htmlFor="email">
+                                                                Email
+                                                            </label>
+                                                            <div class="auth_filed_inner_inputs_for_label">
+                                                                <span class="auth_filed_inner_inputs_span">
+                                                                    <img src="./assets/images/email.svg" alt="">
+                                                                </span>
+                                                                <input name="email" placeholder="Enter Email address"
+                                                                    class="auth_filed_inner_inputs_tag " type="email" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="auth_filed_inner_inputs">
+                                                            <label class="auth_filed_label" htmlFor="password">
+                                                                Password
+                                                            </label>
+                                                            <div class="auth_filed_inner_inputs_for_label">
+                                                                <span class="auth_filed_inner_inputs_span">
+                                                                    <img src="./assets/images/password.svg" alt="">
+                                                                </span>
+                                                                <input name="password" placeholder="Enter Password"
+                                                                    class="auth_filed_inner_inputs_tag "
+                                                                    type="password" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="auth_filed_inner_inputs">
+                                                            <label class="auth_filed_label" htmlFor="confirm password">
+                                                                Confirm Password
+                                                            </label>
+                                                            <div class="auth_filed_inner_inputs_for_label">
+                                                                <span class="auth_filed_inner_inputs_span">
+                                                                    <img src="./assets/images/password.svg" alt="">
+                                                                </span>
+                                                                <input name="confirm password"
+                                                                    placeholder="Enter Password"
+                                                                    class="auth_filed_inner_inputs_tag "
+                                                                    type="password" />
+                                                                <button class="eyes_icon">
+                                                                    <span class="auth_filed_inner_inputs_span_right">
+                                                                        <img src="./assets/images/hidepass.svg" alt="">
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="payment_submit_main">
+                                                            <button class="payment_submit">
+                                                                Next
+                                                            </button>
+                                                        </div>
+
+                                                    </form>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="hidden" id="tab-settings">
+                                                <div class="billing_contact_information_main">
+                                                    <p class="billing_contact_information_main_para">Billing and Contact
+                                                        Information</p>
+                                                </div>
+                                                <div class="billo=ing_contact_main">
+                                                    <form class="auth_form">
+                                                        <div class="auth_filed_inner_inputs_flex">
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="companyName">
+                                                                    Company Name
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label">
+                                                                    <span class="auth_filed_inner_inputs_span">
+                                                                        <img src="./assets/images/companyName.svg"
+                                                                            alt="">
+                                                                    </span>
+                                                                    <input name="companyName"
+                                                                        placeholder="Enter Company Name"
+                                                                        class="auth_filed_inner_inputs_tag "
+                                                                        type="text" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label"
+                                                                    htmlFor=" contactNumber">
+                                                                    Contact Number
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label">
+                                                                    <span class="auth_filed_inner_inputs_span">
+                                                                        <img src="./assets/images/call.svg" alt="">
+                                                                    </span>
+                                                                    <input name="contactNumber"
+                                                                        placeholder="Enter Contact Number"
+                                                                        class="auth_filed_inner_inputs_tag "
+                                                                        type="number" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="auth_filed_inner_inputs_flex">
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="email">
+                                                                    Email
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label">
+                                                                    <span class="auth_filed_inner_inputs_span">
+                                                                        <img src="./assets/images/email.svg" alt="">
+                                                                    </span>
+                                                                    <input name="email" placeholder="Enter Email "
+                                                                        class="auth_filed_inner_inputs_tag "
+                                                                        type="email" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="email">
+                                                                    Confirm Email
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label">
+                                                                    <span class="auth_filed_inner_inputs_span">
+                                                                        <img src="./assets/images/email.svg" alt="">
+                                                                    </span>
+                                                                    <input name="confirmEmail"
+                                                                        placeholder="Enter Email "
+                                                                        class="auth_filed_inner_inputs_tag "
+                                                                        type="email" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="auth_filed_inner_inputs">
+                                                            <label class="auth_filed_label" htmlFor="password">
+                                                                Address
+                                                            </label>
+                                                            <div class="auth_filed_inner_inputs_for_label">
+                                                                <span class="auth_filed_inner_inputs_span">
+                                                                    <img src="./assets/images/location.svg" alt="">
+                                                                </span>
+                                                                <input name="address" placeholder="Enter Address"
+                                                                    class="auth_filed_inner_inputs_tag " type="text" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="auth_filed_inner_inputs_flex">
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="city">
+                                                                    City
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label_inner">
+                                                                    <select name=" city" placeholder="Select City"
+                                                                        class="text-[#ABB0B8] auth_filed_inner_inputs_tag auth_nationality_inner_input form-control single_entry_select_option_main_div_under">
+                                                                        <option class="auth_filed_label " value="">
+                                                                            Select City
+                                                                        </option>
+                                                                        <option class="auth_filed_label" value="Surat">
+                                                                            Surat
+                                                                        </option>
+                                                                        <option class="auth_filed_label"
+                                                                            value="Ahmadabad">
+                                                                            Ahmadabad
+                                                                        </option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="state">
+                                                                    State
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label_inner">
+                                                                    <select name=" state" placeholder=" Select State"
+                                                                        class=" text-[#ABB0B8]  auth_filed_inner_inputs_tag auth_nationality_inner_input form-control single_entry_select_option_main_div_under">
+                                                                        <option class="auth_filed_label"
+                                                                            value="Choose a document">
+                                                                            Select State
+                                                                        </option>
+                                                                        <option class="auth_filed_label"
+                                                                            value="Gujarat">
+                                                                            Gujarat
+                                                                        </option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="auth_filed_inner_inputs_flex">
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="province">
+                                                                    Province
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label">
+                                                                    <input name="province" placeholder="Select City "
+                                                                        class="auth_filed_inner_inputs_tag auth_filed_inner_inputs_tag_inner_remove_space "
+                                                                        type="text" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="state">
+                                                                    Country
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label_inner">
+                                                                    <select name=" state" placeholder=" Select State"
+                                                                        class="text-[#ABB0B8]  auth_filed_inner_inputs_tag auth_nationality_inner_input form-control single_entry_select_option_main_div_under">
+                                                                        <option class="auth_filed_label"
+                                                                            value="Choose a document">
+                                                                            Select Country
+                                                                        </option>
+                                                                        <option class="auth_filed_label"
+                                                                            value="Gujarat">
+                                                                            india
+                                                                        </option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+
+                                                        <div class="auth_filed_inner_inputs_flex">
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="zipcode">
+                                                                    Zip/Postal Code
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label">
+                                                                    <input name="zipcode"
+                                                                        placeholder="Enter Zip or Postal Code "
+                                                                        class="auth_filed_inner_inputs_tag auth_filed_inner_inputs_tag_inner_remove_space "
+                                                                        type="number" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="auth_filed_inner_inputs">
+                                                                <label class="auth_filed_label" htmlFor="telephone">
+                                                                    Enter Telephone
+                                                                </label>
+                                                                <div class="auth_filed_inner_inputs_for_label">
+                                                                    <input name="number" placeholder="Enter Telephone "
+                                                                        class="auth_filed_inner_inputs_tag auth_filed_inner_inputs_tag_inner_remove_space "
+                                                                        type="number" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="payment_submit_main">
+                                                            <button class="payment_submit">
+                                                                Next
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                            <div class="hidden" id="tab-options">
+                                                <div class="billing_contact_information_main">
+                                                    <p class="billing_contact_information_main_para">Payment Method
+                                                    </p>
+                                                </div>
+                                                <div class="saved_caard">
+                                                    <h4 class="saved_card_para">Saved Card</h4>
+                                                </div>
+
+                                                <div class="saved_card_master_list_flex">
+                                                    <div class="saved_card_master_list w-full">
+                                                        <input type="radio" id="masterCard" name="fav_language"
+                                                            value="masterCard"
+                                                            class="saved_card_master_list_inner_main">
+                                                        <div class="saved_card_master_list_outer_main">
+                                                            <img src="./assets/images/masterCard.png" alt=""
+                                                                class="saved_card_master_list_outer_main_img">
+                                                        </div>
+                                                        <div class="master_card_text_para">
+                                                            <p class="master_card_text_para_inner">Mastercard XXXX 7635
+                                                            </p>
+                                                            <p class="master_card_text_para_inner_outer">Expires on
+                                                                20/28
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="saved_card_master_list w-full">
+                                                        <input type="radio" id="masterCard" name="fav_language"
+                                                            value="masterCard"
+                                                            class="saved_card_master_list_inner_main">
+                                                        <div class="saved_card_master_list_outer_main">
+                                                            <img src="./assets/images/visa.svg" alt=""
+                                                                class="saved_card_master_list_outer_main_img">
+                                                        </div>
+                                                        <div class="master_card_text_para">
+                                                            <p class="master_card_text_para_inner">Mastercard XXXX 7635
+                                                            </p>
+                                                            <p class="master_card_text_para_inner_outer">Expires on
+                                                                20/28
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="saved_card_master_list_flex">
+                                                    <div class="saved_card_master_list w-full">
+                                                        <input type="radio" id="masterCard" name="fav_language"
+                                                            value="masterCard"
+                                                            class="saved_card_master_list_inner_main">
+                                                        <div class="saved_card_master_list_outer_main">
+                                                            <img src="./assets/images/american-express.svg" alt=""
+                                                                class="saved_card_master_list_outer_main_img">
+                                                        </div>
+                                                        <div class="master_card_text_para">
+                                                            <p class="master_card_text_para_inner">Mastercard XXXX 7635
+                                                            </p>
+                                                            <p class="master_card_text_para_inner_outer">Expires on
+                                                                20/28
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="saved_card_master_list w-full">
+                                                        <input type="radio" id="masterCard" name="fav_language"
+                                                            value="masterCard"
+                                                            class="saved_card_master_list_inner_main">
+                                                        <div class="saved_card_master_list_outer_main">
+                                                            <img src="./assets/images/discover.svg" alt=""
+                                                                class="saved_card_master_list_outer_main_img">
+                                                        </div>
+                                                        <div class="master_card_text_para">
+                                                            <p class="master_card_text_para_inner">Mastercard XXXX 7635
+                                                            </p>
+                                                            <p class="master_card_text_para_inner_outer">Expires on
+                                                                20/28
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="saved_caard">
+                                                    <h4 class="saved_card_para">Add a new card</h4>
+                                                </div>
+
+                                                <form class="auth_form">
+                                                    <div class="auth_filed_inner_inputs_flex">
+                                                        <div class="auth_filed_inner_inputs">
+                                                            <label class="auth_filed_label" htmlFor="cardHolder">
+                                                                Card Holder
+                                                            </label>
+                                                            <div class="auth_filed_inner_inputs_for_label">
+
+                                                                <input name="cardHolder" placeholder="Enter Card Holder"
+                                                                    class="auth_filed_inner_inputs_tag auth_filed_inner_inputs_tag_inner_remove_space "
+                                                                    type="text" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="auth_filed_inner_inputs">
+                                                            <label class="auth_filed_label" htmlFor=" cardNumber">
+                                                                Card number
+                                                            </label>
+                                                            <div class="auth_filed_inner_inputs_for_label">
+
+                                                                <input name="cardNumber" placeholder="Enter Card Number"
+                                                                    class="auth_filed_inner_inputs_tag auth_filed_inner_inputs_tag_inner_remove_space "
+                                                                    type="number" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="auth_filed_inner_inputs_flex">
+                                                        <div class="auth_filed_inner_inputs">
+                                                            <label class="auth_filed_label" htmlFor="expDate">
+                                                                EXP Date
+                                                            </label>
+                                                            <div class="auth_filed_inner_inputs_for_label">
+                                                                <input type="text" id="expiryDate" maxlength="7"
+                                                                    placeholder="MM/YYYY"
+                                                                    oninput="formatExpiryDate(event)" class=" auth_filed_inner_inputs_tag
+                                                                    auth_filed_inner_inputs_tag_inner_remove_space" />
+                                                                <button class=" eyes_icon">
+                                                                    <span class="auth_filed_inner_inputs_span_right">
+                                                                        <img src="./assets/images/calendar-2.svg"
+                                                                            alt="">
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="auth_filed_inner_inputs">
+                                                            <label class="auth_filed_label" htmlFor="cvv">
+                                                                CVV
+                                                            </label>
+                                                            <div class="auth_filed_inner_inputs_for_label_inner">
+                                                                <div class="auth_filed_inner_inputs_for_label">
+                                                                    <input name="cvv" placeholder=" Cvv"
+                                                                        class="auth_filed_inner_inputs_tag auth_filed_inner_inputs_tag_inner_remove_space "
+                                                                        type="number" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="payment_submit_main">
+                                                        <button class="payment_submit">
+                                                            Submit
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <script type="text/javascript">
+
+        function changeActiveTab(event, tabID) {
+            let element = event.target;
+            while (element.nodeName !== "A") {
+                element = element.parentNode;
+            }
+
+            ulElement = element.parentNode.parentNode;
+            aElements = ulElement.querySelectorAll("li > a");
+            aElementsSpan = ulElement.querySelectorAll("li > a > span");
+            tabContents = document.getElementById("tabs-id").querySelectorAll(".tab-content > div");
+            for (let i = 0; i < aElements.length; i++) {
+                // Remove active class from all elements
+                aElements[i].classList.remove("text-white");
+                aElements[i].classList.remove("bg-[#2F9831]");
+                aElements[i].classList.add("text-white-600");
+                aElements[i].classList.add("bg-white");
+
+                // Add or remove active class for the spans
+                if (aElementsSpan[i]) {
+                    aElementsSpan[i].classList.remove("active-span");
+                }
+
+                tabContents[i].classList.add("hidden");
+                tabContents[i].classList.remove("block");
+            }
+            element.classList.remove("text-[#212529]");
+            element.classList.remove("bg-white");
+            element.classList.add("text-white");
+            element.classList.add("bg-[#2F9831]");
+
+            // Add active class for the span of the clicked element
+            let spanElement = element.querySelector("span");
+            if (spanElement) {
+                spanElement.classList.add("active-span");
+            }
+
+            document.getElementById(tabID).classList.remove("hidden");
+            document.getElementById(tabID).classList.add("block");
+        }
+
+        function formatExpiryDate(event) {
+            let input = event.target;
+            let value = input.value;
+
+            // Remove any non-digit characters except "/"
+            value = value.replace(/[^\d/]/g, '');
+
+            // Ensure month is between 01 and 12
+            if (/^(0[1-9]|1[0-2])$/.test(value)) {
+                // Automatically add '/' after the month
+                value = value + '/';
+            }
+
+            // Ensure year is in the format YYYY (4 digits)
+            if (/^\d{4}$/.test(value)) {
+                // Add a '/' before the year
+                value = '12/' + value;
+            }
+
+            // Limit the input length to 7 characters (MM/YYYY)
+            if (value.length > 7) {
+                value = value.substr(0, 7);
+            }
+
+            input.value = value;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+    </script>
+
+</body>

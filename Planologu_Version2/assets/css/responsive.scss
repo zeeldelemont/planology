@@ -1,0 +1,1207 @@
+/* 1200 */
+/*  */
+/* .premium_card_main_three_top_outer_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20rem;
+  } */
+@media only screen and (min-width: 1800px) {
+    .container {
+        max-width: 1630px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .imaging_sec_top_hero {
+        &:after {
+            width: 27rem;
+            height: 31rem;
+        }
+    }
+
+    .imagine_group_text_sales_head_main {
+        &:after {
+            background-size: contain;
+        }
+    }
+
+    .imaging_main_sec_top_hero {
+        &::before {
+            width: 172px;
+            height: 254px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+ 
+    .container {
+        max-width: 1440px;
+    }
+
+    .imaging_sec_top_hero {
+        &:after {
+            width: 25rem;
+            height: 28rem;
+        }
+    }
+
+    .imagine_group_text_sales_head_main {
+        &:after {
+            right: -8rem;
+        }
+    }
+
+    .payment_method_main_div_outer_main_top {
+        margin: 0 50px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1540px) {
+    .premium_card_main_three_second_div {
+        top: 0;
+    }
+
+    .premium_card_main_three_top_outer_card {
+        >div {
+            margin: 0 20px;
+        }
+
+        width: 63.3rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .premium_card_main_three_top_outer_card_center {
+        height: 210dvh;
+    }
+
+    .premium_card_main_three_top_outer_card_center_postion_div_main {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imaging_main_sec_top_hero {
+        padding: 0 0 20rem;
+    }
+
+    .imagine_group_text_sales_head_main {
+        font-size: 50px;
+    }
+
+    .premium_card_main_three_thess_div {
+        margin-top: 40px !important;
+    }
+
+    .special_offer_text {
+        font-size: 18px;
+    }
+
+    .special_offer_text_para {
+        font-size: 18px;
+    }
+
+    .premium_card_main_three_inner {
+        padding: 20px 0;
+    }
+
+    .premium_card_text_head {
+        font-size: 24px;
+    }
+
+    .premium_card_dollar_month_inner {
+        font-size: 42px;
+    }
+
+    .premium_card_month_sub_text {
+        font-size: 20px;
+    }
+
+    .premium_annual_subscription_text {
+        font-size: 20px;
+    }
+
+    .premium_card_dollar_month {
+        padding: 24px 18px;
+    }
+
+    .premium_annual_free_month_main_div {
+        padding: 24px 18px;
+    }
+
+    .premium_web_app_services {
+        padding: 24px 18px;
+    }
+
+    .planology_asked_questions_div_head {
+        font-size: 44px;
+    }
+
+    .title_add_des_accordion {
+        font-size: 18px;
+    }
+
+    .accordion-content {
+        .description {
+            font-size: 16px;
+        }
+
+        .accordion_main_div_top {
+            padding: 22px 26px;
+        }
+    }
+
+    .accordion_first_direct {
+        font-size: 16px;
+    }
+
+    .planology_desctiption_our_para {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1480px) {
+    li.free_and_space_li_list_card {
+        width: 29.5%;
+        height: 250px;
+    }
+
+    ul.free_an_space_ul_list {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1480px) {
+    section.planology_asked_questions_div {
+        margin: 0 35px;
+    }
+
+    section.one_month_description_main_div {
+        margin: 0 35px;
+    }
+
+    li.free_and_space_li_list_card {
+        width: 28.5%;
+        height: 295px;
+    }
+
+    ul.free_an_space_ul_list {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .imagine_group_text_sales_head_main {
+        max-width: 59rem;
+    }
+
+    ul.premium_join_tab_main_div_inner_outer_main_ul_list {
+        width: 375px;
+    }
+}
+
+@media only screen and (max-width: 1429px) {
+    .payment_method_title_head {
+        font-size: 36px;
+    }
+
+    section.payment_method_main_div {
+        padding: 80px 0;
+    }
+
+    .payment_business_peremium_head {
+        font-size: 24px;
+    }
+
+    .payment_premium_amount_main {
+        font-size: 22px;
+    }
+
+    .payment_premium_price_main {
+        font-size: 24px;
+    }
+
+    .saved_card_para {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+    .premium_card_main_three_top_outer_card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 60rem;
+        top: -26rem;
+    }
+
+    .premium_card_main_three_top_outer_card_center {
+        height: 310dvh;
+    }
+
+    .premium_card_main_three_top_outer_card_center_postion_div_main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .premium_card_main_three_second_div {
+        top: 2rem;
+    }
+
+    .premium_card_main_three_thess_div {
+        margin-top: 4rem;
+    }
+
+    section.planology_asked_questions_div {
+        margin: 0 35px;
+    }
+
+    section.one_month_description_main_div {
+        margin: 0 35px;
+    }
+
+    li.free_and_space_li_list_card {
+        width: 29%;
+        padding: 22px;
+        height: 295px;
+    }
+
+    ul.free_an_space_ul_list {
+        justify-content: center;
+    }
+
+    .imagine_group_text_sales_head_main {
+        font-size: 56px;
+    }
+
+    .accordion-content {
+        .accordion_main_div_top {
+            padding: 16px 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .premium_join_tab_main_div_inner_outer_main {
+        width: 53rem;
+    }
+
+    .premium_join_link {
+        padding: 16px;
+    }
+
+    li.premium_join_tab_main_div_inner_outer_main_li_list {
+        margin-bottom: 0;
+    }
+
+    .premium_join_tab_main_div_inner_outer_main_outer_div_auto_width {
+        overflow: auto;
+        width: auto;
+    }
+
+    ul.premium_join_tab_main_div_inner_outer_main_ul_list {
+        min-width: 53rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .join_main_form_tab_inner_div {
+        flex-direction: column;
+    }
+
+    .imaging_sec_top_hero {
+        &:after {
+            width: 24rem;
+            height: 27rem;
+        }
+    }
+
+    .imagine_group_text_sales_head_main {
+        max-width: 57rem;
+
+        &:after {
+            right: -5rem;
+        }
+    }
+
+    .special_offer_text_para {
+        max-width: 54rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .premium_join_tab_main_div_inner_outer_main {
+        width: auto;
+    }
+
+    header.header_main_top {
+        padding: 18px 0;
+    }
+
+    .premium_card_main_three_top_outer_card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 40rem;
+    }
+
+    .premium_card_main_three_top_outer_card_center_postion_div_main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .premium_card_main_three_top_outer_card_center {
+        height: 300dvh;
+    }
+
+    .premium_card_main_three_second_div {
+        top: 2rem;
+    }
+
+    .premium_card_main_three_thess_div {
+        margin-top: 4rem;
+    }
+
+    .imaging_main_sec_top_hero {
+        padding: 0 0 20rem;
+
+        &::before {
+            width: 180px;
+            height: 218px;
+            width: 180px;
+            height: 218px;
+        }
+    }
+
+    .imagine_group_text_sales_head_main {
+        &:after {
+            width: 15rem;
+            right: 1rem;
+            top: -5rem;
+        }
+
+        font-size: 52px;
+        max-width: 52rem;
+    }
+
+    .imaging_sec_top_hero {
+        &:after {
+            width: 20rem;
+            height: 26rem;
+        }
+    }
+
+    .special_offer_text {
+        padding: 14px 0;
+    }
+
+    .special_offer_text_para {
+        max-width: 50rem;
+    }
+
+    .premium_card_main_three_inner {
+        padding: 20px 0;
+    }
+
+    .premium_card_text_head {
+        font-size: 24px;
+    }
+
+    .premium_card_dollar_month_inner {
+        font-size: 44px;
+    }
+
+    .premium_card_dollar_month {
+        padding: 22px 22px;
+    }
+
+    .premium_annual_free_month_main_div {
+        padding: 22px 22px;
+    }
+
+    .premium_annual_free_month_inner_div {
+        margin-bottom: 16px;
+    }
+
+    .premium_btn_button {
+        font-size: 16px;
+        height: 58px;
+    }
+
+    section.planology_asked_questions_div {
+        margin: 0 40px;
+        padding: 70px 0;
+    }
+
+    .planology_asked_questions_div_head {
+        font-size: 42px;
+    }
+
+    .planology_asked_questions_div_para_head_main {
+        margin-bottom: 40px;
+    }
+
+    .title_add_des_accordion {
+        font-size: 18px;
+    }
+
+    .free_and_space_main_div {
+        padding: 70px 0;
+    }
+
+    section.one_month_description_main_div {
+        padding: 70px 0;
+        margin: 0 40px;
+    }
+
+    button.uploaded_btn_btn {
+        font-size: 16px;
+    }
+
+    li.free_and_space_li_list_card {
+        width: 40%;
+        height: 300px;
+    }
+
+    ul.free_an_space_ul_list {
+        justify-content: center;
+    }
+
+    .uploaded_list_description {
+        margin-top: 35px;
+    }
+
+    section.bottom_color_div {
+        padding: 35px 0;
+    }
+
+    .one_month_text_num_add_one {
+        font-size: 18px;
+    }
+
+    .imagine_group_text_sales {
+        margin: 0 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .uploaded_list_description_para_bottom_div {
+            margin-top: 18px;
+        }
+
+    p.free_spec_main_text_para br {
+        display: none;
+    }
+    .payment_method_title_head {
+        font-size: 32px;
+    }
+
+    section.payment_method_main_div {
+        padding: 70px 0;
+    }
+
+    .payment_business_peremium_head {
+        font-size: 22px;
+    }
+
+    span.payment_method_bg_color {
+        padding: 10px;
+    }
+
+    .payment_premium_amount_main {
+        font-size: 20px;
+    }
+
+    .payment_premium_price_main {
+        font-size: 20px;
+    }
+
+    .premium_join_today_form_main_div_inner_head_text {
+        font-size: 26px;
+    }
+
+    .master_card_text_para_inner {
+        font-size: 18px;
+    }
+
+    .saved_card_master_list_flex {
+        display: block;
+    }
+
+    .saved_card_master_list.w-full {
+        margin-bottom: 15px;
+    }
+
+    header.header_main_top {
+        padding: 15px 0;
+    }
+
+    .auth_filed_inner_inputs_flex {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .logo_img_main_div {
+        padding: 0;
+    }
+
+    button.signin_signupbtn {
+        margin: 0;
+    }
+
+    .imagine_group_text_sales_head_main {
+        font-size: 42px;
+        max-width: 42rem;
+
+        &:after {
+            top: -5rem;
+            right: 1rem;
+        }
+    }
+
+    .special_offer_text {
+        font-size: 17px;
+    }
+
+    .special_offer_text_para {
+        font-size: 18px;
+        max-width: 42rem;
+    }
+
+    .planology_asked_questions_div_head {
+        font-size: 36px;
+        font-size: 36px;
+    }
+
+    .free_and_space_main_span_list {
+        padding: 11px;
+
+        img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    li.free_and_space_li_list_card {
+        width: 100%;
+        height: auto;
+    }
+
+    .free_and_space_outer_main_div {
+        margin: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+.tabs_num_add {
+        padding: 7px 12px;
+    }
+span.tabs_num_add.mr-\[16px\] {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    input.auth_filed_inner_inputs_tag.auth_filed_inner_inputs_tag_inner_remove_space {
+            padding: 18px;
+    }
+    
+     select.text-\[\#ABB0B8\].auth_filed_inner_inputs_tag.auth_nationality_inner_input.form-control.single_entry_select_option_main_div_under {
+            font-size: 16px;
+    }
+
+    .auth_filed_inner_inputs_tag::placeholder {
+            color: #abb0b8;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+ 
+    input.auth_filed_inner_inputs_tag {
+            padding: 18px 18px 18px 50px;
+        }
+    label.auth_filed_label {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+       
+    button.payment_submit {
+        padding: 16px 42px;
+    }
+
+    .payment_business_peremium_head {
+        font-size: 20px;
+    }
+
+    .payment_method_title_business_top_main_div {
+        padding: 21px;
+    }
+
+    .payment_method_inner_main_div {
+        margin-bottom: 35px;
+    }
+
+    .payment_premium_amount_main {
+        font-size: 18px;
+    }
+
+    .payment_premium_price_main {
+        font-size: 18px;
+    }
+
+    .premium_join_today_form_main_div_inner_head_text {
+        font-size: 22px;
+    }
+
+    a.premium_join_link {
+        padding: 15px;
+    }
+
+    ul.premium_join_tab_main_div_inner_outer_main_ul_list {
+        padding: 14px;
+    }
+
+    .form_main_right_div {
+        padding: 22px;
+    }
+
+    .payment_method_title_head {
+        font-size: 28px;
+    }
+
+    .payment_method_main_div_outer_main_top {
+        margin: 0 35px;
+    }
+
+    .title_add_des_accordion {
+        font-size: 16px;
+        font-size: 16px;
+    }
+
+    .accordion-content {
+        .description {
+            font-size: 16px;
+            line-height: 26px;
+            padding: 0 20px;
+        }
+
+        .accordion_main_div_top {
+            padding: 20px;
+        }
+    }
+
+    span.accordion_first_direct {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .accordion-content.open {
+        padding-bottom: 16px;
+        padding-bottom: 16px;
+    }
+
+    span.planology_desctiption_our_para {
+        line-height: 25px;
+    }
+
+    .header_main_top {
+        padding: 15px 0;
+    }
+
+    .logo_img_main_div {
+        padding: 0;
+    }
+
+    .imaging_sec_top_hero {
+        &:after {
+            width: 18rem;
+            height: 25rem;
+        }
+    }
+
+    .imagine_group_text_sales_head_main {
+        &:after {
+            width: 12rem;
+            top: -4rem;
+            right: 2rem;
+        }
+    }
+
+    .imaging_main_sec_top_hero {
+        padding: 0 0 18rem;
+    }
+
+    .imagine_group_text_sales {
+        padding-top: 9rem;
+    }
+
+    .special_offer_text_para {
+        line-height: 25px;
+    }
+
+    .premium_card_main_three_inner {
+        padding: 18px 0;
+    }
+
+    .premium_card_text_head {
+        font-size: 22px;
+    }
+
+    .premium_card_dollar_month_inner {
+        font-size: 38px;
+    }
+
+    .premium_card_month_sub_text {
+        font-size: 21px;
+    }
+
+    .premium_annual_subscription_text {
+        font-size: 21px;
+    }
+
+    .premium_card_dollar_month {
+        padding: 20px;
+    }
+
+    .premium_month_text_para {
+        margin-bottom: 14px;
+    }
+
+    .premium_annual_free_month_main_div {
+        padding: 20px;
+    }
+
+    .premium_card_feature_text {
+        font-size: 16px;
+    }
+
+    .premium_card_feature_text_dark {
+        font-size: 16px;
+    }
+
+    .premium_free_side_color_text {
+        font-size: 16px;
+    }
+
+    .premium_annual_free_month_inner_div {
+        margin-bottom: 10px;
+
+        svg {
+            width: 22px;
+        }
+    }
+
+    .premium_read_more_text_head {
+        font-size: 16px;
+    }
+
+    .planology_asked_questions_div_head {
+        font-size: 28px;
+    }
+
+    .premium_card_main_three_top_outer_card_center {
+        height: 276dvh;
+    }
+
+    .premium_btn_button {
+        height: 50px;
+    }
+
+    button.uploaded_btn_btn {
+        padding: 14px;
+    }
+
+    .premium_card_main_three_second_div {
+        margin: 0;
+    }
+
+    .premium_card_main_three_top_outer_card {
+        width: 25rem;
+    }
+
+    section.planology_asked_questions_div {
+        padding: 50px 0;
+    }
+
+    .free_and_space_main_div {
+        padding: 50px 0;
+    }
+
+    section.one_month_description_main_div {
+        padding: 50px 0;
+    }
+
+    section.bottom_color_div {
+        padding: 25px 0;
+    }
+
+    li.one_month_text_para {
+        margin-bottom: 8px;
+    }
+
+    .uploaded_list_description {
+        margin-top: 25px;
+    }
+
+    button.signin_signupbtn {
+        height: 46px;
+        font-size: 16px;
+    }
+
+    img.logo_main {
+        width: 11rem;
+    }
+}
+
+@media (max-width: 485px) {
+    .signin_signupbtn_left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+
+
+    p.billing_contact_information_main_para {
+        font-size: 18px;
+    }
+
+    .payment_method_title_head {
+        font-size: 22px;
+        font-size: 24px;
+    }
+
+    .payment_business_peremium_head {
+        font-size: 16px;
+        margin-left: 11px;
+    }
+
+    span.payment_method_bg_color {
+        padding: 7px;
+
+        img {
+            width: 28px;
+        }
+    }
+
+    section.payment_method_main_div {
+        padding: 50px 0;
+    }
+
+    .payment_method_inner_main_div {
+        margin-bottom: 30px;
+    }
+
+    .premium_join_today_form_main_div_inner_head_text {
+        font-size: 20px;
+    }
+
+    .premium_join_today_form_main_div_inner {
+        padding: 28px 0 20px;
+    }
+
+    .premium_web_app_services_inner_included_text {
+        font-size: 14px;
+    }
+
+    .premium_web_des_title {
+        font-size: 12px;
+    }
+
+    button.signin_signupbtn {
+        font-size: 13px;
+        padding: 0 !important;
+        width: 80px;
+    }
+
+    .logo_img_main_div {
+        padding: 0;
+        padding: 0 !important;
+    }
+
+    img.logo_main {
+        width: 10rem;
+    }
+
+    .premium_card_main_three_top_outer_card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 20rem;
+    }
+
+    .imaging_sec_top_hero {
+        &:after {
+            width: 17rem;
+            height: 23rem;
+        }
+    }
+
+    .imagine_group_text_sales {
+        padding-top: 6rem;
+    }
+
+    .imagine_group_text_sales_head_main {
+        &:after {
+            width: 9rem;
+            top: -3rem;
+            right: 1rem;
+        }
+
+        font-size: 38px;
+    }
+
+    .special_offer_text {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .special_offer_text_para {
+        font-size: 15px;
+    }
+
+    .premium_card_text_head {
+        font-size: 20px;
+    }
+
+    .premium_card_dollar_month_inner {
+        font-size: 30px;
+    }
+
+    .premium_card_month_sub_text {
+        font-size: 18px;
+    }
+
+    .premium_annual_subscription_text {
+        font-size: 16px;
+    }
+
+    .premium_card_main_three_top_outer_card_center {
+        height: 282dvh;
+    }
+
+    .planology_asked_questions_div_head {
+        font-size: 24px;
+    }
+
+    .planology_asked_questions_div_para_head_main {
+        margin-bottom: 25px;
+    }
+
+    .title_add_des_accordion {
+        font-size: 16px;
+    }
+
+    .accordion-content {
+        .accordion_main_div_top {
+            padding: 18px;
+        }
+    }
+
+    section.planology_asked_questions_div {
+        margin: 0 35px;
+    }
+
+    .free_and_space_outer_main_div {
+        margin: 0 35px;
+    }
+
+    section.one_month_description_main_div {
+        margin: 0 35px;
+    }
+
+    .payment_method_main_div_outer_main_top {
+        margin: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+    .payment_business_peremium_head {
+        font-size: 14px;
+    }
+
+    .payment_method_title_business {
+        margin-bottom: 20px;
+    }
+
+    .payment_premium_amount_main {
+        font-size: 14px;
+        max-width: 10rem;
+    }
+
+    .payment_premium_amount_price.payment_premium_amount_price_first {
+        margin-bottom: 15px;
+    }
+
+    .payment_premium_price_main {
+        font-size: 14px;
+    }
+
+    .payment_method_title_head {
+        font-size: 22px;
+    }
+
+    .payment_method_inner_main_div {
+        margin-bottom: 26px;
+    }
+
+    .payment_method_main_div_outer_main_top {
+        margin: 0 20px;
+    }
+
+    .title_add_des_accordion {
+        font-size: 14px;
+    }
+
+    .accordion-content {
+        .description {
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .accordion_main_div_top {
+            padding: 16px;
+        }
+    }
+
+    .premium_card_main_three_top_outer_card_center {
+        height: 220dvh;
+    }
+
+    .premium_web_app_services_inner_included_text {
+        font-size: 14px;
+    }
+
+    .premium_web_des_title {
+        font-size: 12px;
+    }
+
+    .imaging_sec_top_hero {
+        &:after {
+            width: 15rem;
+            height: 22rem;
+        }
+    }
+
+    .imagine_group_text_sales {
+        padding-top: 4.5rem;
+    }
+
+    .imagine_group_text_sales_head_main {
+        font-size: 36px;
+    }
+
+    .special_offer_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .special_offer_text_para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .premium_card_main_three_top_outer_card {
+        margin: 0 70px;
+        width: 18rem;
+    }
+
+    .premium_card_dollar_month {
+        padding: 12px;
+    }
+
+    .premium_card_dollar_month_inner {
+        font-size: 24px;
+    }
+
+    .premium_card_month_sub_text {
+        font-size: 14px;
+    }
+
+    .premium_annual_subscription_text {
+        font-size: 14px;
+    }
+
+    .premium_month_text_para {
+        font-size: 14px;
+    }
+
+    .premium_annual_free_month_main_div {
+        padding: 12px;
+    }
+
+    .premium_card_feature_text {
+        margin-left: 8px;
+        max-width: 14.5rem;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .premium_card_feature_text_dark {
+        font-size: 12px;
+        line-height: 0;
+    }
+
+    .premium_free_side_color_text {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .premium_web_app_services {
+        padding: 12px;
+    }
+
+    .premium_btn_button {
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .premium_popualar_plan_text {
+        font-size: 12px;
+    }
+
+    .planology_asked_questions_div_para {
+        font-size: 12px;
+    }
+
+    .free_spec_main_text_para {
+        font-size: 14px;
+    }
+
+    .free_december_date {
+        font-size: 14px;
+    }
+
+    li.one_month_text_para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .uploaded_list_description_para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    button.uploaded_btn_btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .premium_read_more_text_head {
+        font-size: 14px;
+    }
+
+    section.planology_asked_questions_div {
+        margin: 0 28px;
+    }
+
+    .free_and_space_outer_main_div {
+        margin: 0 28px;
+    }
+
+    section.one_month_description_main_div {
+        margin: 0 28px;
+    }
+}
